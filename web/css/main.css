@@ -1,0 +1,43 @@
+body{
+    font-family: "Apple Symbols";
+    font-size: 18px;
+    background-color: #99ccff;
+    color: #FFFFFF;
+}
+
+h2{
+    text-align: center;
+    margin-top: 1em;
+}
+
+p{
+    text-align: center;
+}
+
+input{
+    border: 4px double black;
+    background: ghostwhite;
+    font-size: 16px;
+    padding: 3px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+input.button{
+    margin-top: 25px;
+    width: 100%;
+}
+.button:hover{
+    color: #0e29ff;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+p.error{
+    color: darkred;
+    font-size: 14px;
+}

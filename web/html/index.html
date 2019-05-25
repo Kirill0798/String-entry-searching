@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск подстроки</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css"> <!--Подключаемый файл хранит таблицу стилей CSS, MIME-тип данных для внешнего документа, путь к файлу-->
+</head>
+<body>
+<div class="main">
+    <h2>Поиск места вхождения второй строки в первую</h2>
+    <form action="result.html" method="get"><!--адрес программы, обрабатывающей данные; метод HTTP-->
+        <p>Первая строка:</p>
+        <label>
+            <input type="text" name="first" value="" title="Введите первую строку" placeholder="Введите первую строку">
+        </label>
+        <p>Вторая строка:</p>
+        <label>
+            <input type="text" name="second" value="" title="Введите вторую строку" placeholder="Введите вторую строку">
+        </label>
+        <input class="button" type="submit" value="Поиск"/><!--кнопка формата "отправить"-->
+    </form>
+</div>
+</body>
+</html>
