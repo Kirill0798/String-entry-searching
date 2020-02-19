@@ -1,24 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Поиск подстроки</title>
-    <link rel="stylesheet" type="text/css" href="../css/main.css"> <!--Подключаемый файл хранит таблицу стилей CSS, MIME-тип данных для внешнего документа, путь к файлу-->
-</head>
+
+
+     <!--Подключаемый файл хранит таблицу стилей CSS, MIME-тип данных для внешнего документа, путь к файлу-->
+
 <body>
 <div class="main">
-    <h2>Поиск места вхождения второй строки в первую</h2>
-    <form action="result.html" method="get"><!--адрес программы, обрабатывающей данные; метод HTTP-->
-        <p>Первая строка:</p>
-        <label>
-            <input type="text" name="first" value="" title="Введите первую строку" placeholder="Введите первую строку">
-        </label>
-        <p>Вторая строка:</p>
-        <label>
-            <input type="text" name="second" value="" title="Введите вторую строку" placeholder="Введите вторую строку">
-        </label>
-        <input class="button" type="submit" value="Поиск"/><!--кнопка формата "отправить"-->
-    </form>
+    <table>
+        <tbody>
+        <tr>
+            <th>Фамилия</th>
+            <th>Оклад</th>
+            <th>Номер отдела</th>
+        </tr>
+    <tr>
+        <td>King</td>
+        <td> 24000</td>
+        <td> 90</td>
+    </tr>
+    <tr>
+        <td>Russell</td>
+        <td>14000</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Partners</td>
+        <td>13500</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Hartstein</td>
+        <td>13000</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Higgins</td>
+        <td>12000</td>
+        <td>110</td>
+    </tr>
+    <tr>
+        <td>Errazuriz</td>
+        <td>12000</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Greenberg</td>
+        <td>12000</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>Ozer</td>
+        <td>11500</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Cambrault</td>
+        <td>11000</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Raphaely</td>
+        <td>11000</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Abel</td>
+        <td>11000</td>
+        <td>80</td>
+    </tr>
+        <tr>
+            <td>Raphaely</td>
+            <td>11000</td>
+            <td>30</td>
+        </tr>
+    <tr>
+        <td>Vishney</td>
+        <td>10500</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Zlotkey</td>
+        <td>10500</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Tucker</td>
+        <td>10000</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Bloom</td>
+        <td>10000</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>King</td>
+        <td>10000</td>
+        <td>80</td>
+    </tr>
+        <tr>
+            <td>Baer</td>
+            <td>10000</td>
+            <td>70</td>
+        </tr>
+    <tr>
+        <td>Fox</td>
+        <td>9600</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Greene</td>
+        <td>9500</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Bernstein</td>
+        <td>9500</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Sully</td>
+        <td>9500</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Faviet</td>
+        <td>9000</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>Hunold</td>
+        <td>9000</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td>Hall</td>
+        <td>9000</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>McEwen</td>
+        <td>9000</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Fripp</td>
+        <td>8200</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Weiss</td>
+        <td>8000</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Kaufling</td>
+        <td>7900</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Vollman</td>
+        <td>6500</td>
+        <td>50</td>
+    </tr>
+        <tr>
+            <td>Mavris</td>
+            <td>6500</td>
+            <td>40</td>
+        </tr>
+    <tr>
+        <td>Ernst</td>
+        <td>6000</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td>Mourgos</td>
+        <td>5800</td>
+        <td>50</td>
+    </tr>
+        <tr>
+            <td>Whalen</td>
+            <td>4400</td>
+            <td>10</td>
+        </tr>
+    <tr>
+        <td>Sarchand</td>
+        <td>4200</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Bull</td>
+        <td>4100</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Bell</td>
+
+        <td>4000</td>
+
+        <td>50</td>
+
+    </tr>
+    <tr>
+        <td>Everett</td>
+        <td>3900</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Chung</td>
+        <td>3800</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Dilly</td>
+        <td>3600</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Ladwig</td>
+        <td>3600</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Rajs</td>
+        <td>3500</td>
+        <td>50</td>
+    </tr>
+        </tbody>
+    </table>
 </div>
 </body>
 </html>

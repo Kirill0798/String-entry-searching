@@ -66,7 +66,6 @@
       }
       if (first != null && second != null){
         model.Task task = new model.Task(first, second);
-//        session.setAttribute("task", task);
         request.getSession().setAttribute("task", task);
         response.sendRedirect("html/result.html");
         %>
